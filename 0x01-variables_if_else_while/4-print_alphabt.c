@@ -6,15 +6,15 @@
  */
 int main(void)
 {
-int i;
-for (i = 97; i < 123; ++i)
-{
-if ((char)i == 'q' || (char)i == 'e')
-{
-continue;
-}
-putchar(i);
-}
-putchar('\n');
-return (0);
+	int i;
+	for (i = 97; i < 123; ++i)
+	{
+		if ((char)i == 'q' || (char)i == 'e')
+		{
+			continue;
+		}
+		putchar(i);
+	}
+	putchar('\n');
+	return (0);
 }

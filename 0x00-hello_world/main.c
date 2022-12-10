@@ -6,12 +6,14 @@
  *
  * Return: Always 0 (Success)
  */
-struct Point {
-    int x;
-    int y;
+struct Point
+{
+	int x;
+	int y;
 };
 
-int main() {
-    struct Point *points = NULL;
-    points->x = 23;
+int main()
+{
+	struct Point *points = NULL;
+	points->x = 23;
 }
