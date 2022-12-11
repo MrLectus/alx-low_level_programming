@@ -12,7 +12,7 @@ struct Point
 	int y;
 };
 
-int main()
+int main(void)
 {
 	struct Point *points = NULL;
 	points->x = 23;
