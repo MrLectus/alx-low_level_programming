@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-#include "_putchar.c"
 /**
  * print_alphabet - Print lower case letter
  *
