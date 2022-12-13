@@ -39,7 +39,3 @@ void print_to_98(int x)
 		}
     }
 }
-int main(void)
-{
-	print_to_98(0);
-}
