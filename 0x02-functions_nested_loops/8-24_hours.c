@@ -7,7 +7,7 @@
  * Return: Always 0 (Success)
  */
 
-void jack_bauer()
+void jack_bauer(void)
 {
 	for (int i = 0; i <= 23; ++i)
 	{
