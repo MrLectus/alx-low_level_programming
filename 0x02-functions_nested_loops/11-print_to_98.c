@@ -25,7 +25,7 @@ void print_to_98(int x)
 				printf("%d, ", i);
 			}
 		}
-
+		printf("\n");
 	}
 	else
 	{
@@ -40,5 +40,6 @@ void print_to_98(int x)
 				printf("%d, ", i);
 			}
 		}
+		printf("\n");
 	}
 }
