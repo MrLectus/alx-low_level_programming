@@ -18,11 +18,11 @@ void print_to_98(int x)
 		{
 			if (i == 98)
 			{
-				printf("%d\t", i);
+				printf("%d ", i);
 			}
 			else
 			{
-				printf("%d,\t", i);
+				printf("%d, ", i);
 			}
 		}
 
