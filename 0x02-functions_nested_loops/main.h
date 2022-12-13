@@ -1,2 +1,2 @@
-#include "_putchar.c" //;
+#include "_putchar.c"
 void print_alphabet(void);
