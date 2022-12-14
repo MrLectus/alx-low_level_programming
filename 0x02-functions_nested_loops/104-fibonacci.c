@@ -39,6 +39,6 @@ size_t fibbonaci(size_t nums)
  */
 int main(void)
 {
-	fibbonaci(99);
+	fibbonaci(10);
 	return (0);
 }
