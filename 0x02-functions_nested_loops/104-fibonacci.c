@@ -26,7 +26,7 @@ size_t fibbonaci(size_t nums)
 		else
 		{
 
-			printf("%lu", b);
+			printf("%lu ", b);
 		}
 	}
 	return (b);
