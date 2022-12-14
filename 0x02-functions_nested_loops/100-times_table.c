@@ -41,7 +41,7 @@ void print_times_table(int n)
 				_putchar(' ');
 				print(v3);
 			}
-				else
+			else
 			{
 				print(v3);
 			}
