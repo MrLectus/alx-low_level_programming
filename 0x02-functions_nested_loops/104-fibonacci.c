@@ -19,7 +19,7 @@ size_t fibbonaci(size_t nums)
 		c = a + b;
 		a = b;
 		b = c;
-		printf("%u, ", b);
+		printf("%lu, ", b);
 	}
 	return (b);
 }
