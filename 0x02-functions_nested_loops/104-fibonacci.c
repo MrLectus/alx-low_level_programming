@@ -39,7 +39,7 @@ size_t fibbonaci(size_t nums)
  */
 int main(void)
 {
-	fibbonaci(2);
+	fibbonaci(0);
 	printf("\n");
 	return (0);
 }
