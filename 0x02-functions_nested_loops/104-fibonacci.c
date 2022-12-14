@@ -19,7 +19,15 @@ size_t fibbonaci(size_t nums)
 		c = a + b;
 		a = b;
 		b = c;
-		printf("%lu, ", b);
+		if (i < 98)
+		{
+			printf("%lu, ", b);
+		}
+		else
+		{
+
+			printf("%lu", b);
+		}
 	}
 	return (b);
 }
