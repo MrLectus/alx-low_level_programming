@@ -19,7 +19,7 @@ size_t fibbonaci(size_t nums)
 		c = a + b;
 		a = b;
 		b = c;
-		if (i < 100)
+		if (i < 99)
 		{
 			printf("%lu, ", b);
 		}
@@ -29,6 +29,11 @@ size_t fibbonaci(size_t nums)
 			printf("%lu", b);
 		}
 	}
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
+    printf("\n");
 	return (b);
 }
 
@@ -39,6 +44,7 @@ size_t fibbonaci(size_t nums)
  */
 int main(void)
 {
-	fibbonaci(100);
+	fibbonaci(99);
+    printf("\n");
 	return (0);
 }
