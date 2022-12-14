@@ -19,33 +19,33 @@ void print(int var)
 
 void print_times_table(int n)
 {
-	int ii, jj, mul;
+	int v1, v2, v3;
 
 	if (n < 0 || n > 15)
 		return;
-	for (ii = 0; ii <= n; ii++)
+	for (v1 = 0; v1 <= n; v1++)
 	{
-		for (jj = 0; jj <= n; jj++)
+		for (v2 = 0; v2 <= n; v2++)
 		{
-			mul = ii * jj;
-			if (jj == 0)
-				_putchar('0' + mul);
-			else if (mul < 10)
+			v3 = v1 * v2;
+			if (v2 == 0)
+				_putchar('0' + v3);
+			else if (v3 < 10)
 			{
 				_putchar(' ');
 				_putchar(' ');
-				_putchar('0' + mul);
+				_putchar('0' + v3);
 			}
-			else if (mul < 100)
+			else if (v3 < 100)
 			{
 				_putchar(' ');
-				print(mul);
+				print(v3);
 			}
 				else
 			{
-				print(mul);
+				print(v3);
 			}
-			if (jj < n)
+			if (v2 < n)
 			{
 				_putchar(',');
 				_putchar(' ');
@@ -54,4 +54,3 @@ void print_times_table(int n)
 		_putchar('\n');
 	}
 }
-
