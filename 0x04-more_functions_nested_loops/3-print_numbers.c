@@ -1,6 +1,5 @@
-#include "_putchar.c"
 #include "main.h"
-#include <stdio.h>
+
 /**
  * print_numbers - Entry point
  *
