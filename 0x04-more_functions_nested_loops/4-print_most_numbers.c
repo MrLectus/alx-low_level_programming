@@ -6,7 +6,7 @@
  * Return: Always 0 (Success)
  */
 
-void print_most_numbers()
+void print_most_numbers(void)
 {
 	int i;
 
@@ -16,7 +16,10 @@ void print_most_numbers()
 		{
 			continue;
 		}
-		_putchar(i);
+		else
+		{
+			_putchar(i);
+		}
 	}
 	_putchar('\n');
 }
