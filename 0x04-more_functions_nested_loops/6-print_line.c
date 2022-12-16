@@ -9,21 +9,9 @@
 
 void print_line(int n)
 {
+	char x;
 
-	int i;
-
-	for (i = 1; i <= n; ++i)
-	{
-		if (n <= 0)
-		{
-			_putchar('\n');
-		}
-		_putchar(95);
-	}
+	for (x = 0; x < n; x++)
+		_putchar('_');
 	_putchar('\n');
-}
-
-int main()
-{
-	print_line(2);
 }
