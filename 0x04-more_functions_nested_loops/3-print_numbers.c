@@ -10,9 +10,7 @@ void print_numbers(void)
 {
 	for (int i = 48; i <= 57; ++i)
 	{
-		/* _putchar(i);*/
-		printf("%d", i);
+		_putchar(i);
 	}
-	printf("\n");
-	/* _putchar('\n');*/
+	_putchar('\n');
 }
