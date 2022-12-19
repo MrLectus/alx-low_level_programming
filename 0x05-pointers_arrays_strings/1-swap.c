@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * swap_int - do prime
+ * swap_int - swap numbers
  * @a : pointer 1
  * @b : poniter 2
  *
