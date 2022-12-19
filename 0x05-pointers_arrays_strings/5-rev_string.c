@@ -1,6 +1,5 @@
 #include "2-strlen.c"
 #include "main.h"
-#include <stdio.h>
 
 /**
  * swap_char - swap stdout
