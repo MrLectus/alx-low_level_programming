@@ -1,12 +1,10 @@
-#include <stdio.h>
 #include "main.h"
+#include <stdio.h>
 
 /**
  * swap_int - do prime
- * @a - pointer 1
- * @b - poniter 2
- *
- * Return: 0 if successful
+ * @a : pointer 1
+ * @b : poniter 2
  *
  */
 
