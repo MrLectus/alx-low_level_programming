@@ -4,19 +4,20 @@
 
 /**
  * _strcpy - print stdout
- * @dest: poniter 1
- * @src: poniter 2
+ * @dest: pointer 1
+ * @src: pointer 2
  *
+ * Return: dest
  */
 
 char *_strcpy(char *dest, char *src)
 {
 	int i;
-
 	int dest_len = _strlen(src);
+
 	for (i = 0; i < dest_len; ++i)
 	{
 		dest[i] = src[i];
 	}
-	return dest;
+	return (dest);
 }
