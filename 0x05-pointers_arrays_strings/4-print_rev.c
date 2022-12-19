@@ -9,7 +9,7 @@
 
 void print_rev(char *str)
 {
-	int index = _strlen(str);
+	int index = _strlen(str) - 1;
 
 	while (index >= 0)
 	{
