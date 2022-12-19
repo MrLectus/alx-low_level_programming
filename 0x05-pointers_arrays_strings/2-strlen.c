@@ -2,9 +2,9 @@
 
 /**
  * _strlen - find length
- * @s : poniter 1
+ * @s: poniter 1
  *
- * Return : 0
+ * Return: size
  */
 
 int _strlen(char *s)
