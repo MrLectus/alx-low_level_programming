@@ -6,6 +6,7 @@ void puts_half(char *str);
 void print_array(int *a, int n);
 char *_strcpy(char *dest, char *src);
 void reset_to_98(int *n);
+int _atoi(char *s);
 int _strlen(char *s);
 void _puts(char *str);
 int _putchar(char c);
