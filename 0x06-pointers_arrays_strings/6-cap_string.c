@@ -1,5 +1,6 @@
 #include "main.h"
 #include <ctype.h>
+#include "./5-string_toupper.c"
 
 /**
  * cap_string - to upper
@@ -16,7 +17,7 @@ char *cap_string(char *s)
 	{
 		if (prev_was_sep)
 		{
-			*p = toupper((unsigned char)*p);
+			*p = *string_toupper(p);
 		}
 
 		prev_was_sep = isspace((unsigned char)*p) || *p == ',' || *p == ';' ||
