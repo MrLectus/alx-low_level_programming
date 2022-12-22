@@ -6,7 +6,7 @@
  *
  */
 
-void print_number(long long n)
+void print_number(size_t n)
 {
 	if (n < 0)
 	{
