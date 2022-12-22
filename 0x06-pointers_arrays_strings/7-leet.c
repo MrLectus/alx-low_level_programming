@@ -3,44 +3,26 @@
 
 /**
  * leet - to upper
- * @s: poniter 1
+ * @n: poniter 1
  *
  * Return: upper
  */
 
-char *leet(char *s)
+char *leet(char *n)
 {
-	char *p = s;
+	int i, j;
+	char v1[] = "aAeEoOtTlL";
+	char v2[] = "4433007711";
 
-	while (*p)
+	for (i = 0; n[i] != '\0'; i++)
 	{
-		if (*p == 'a' || *p == 'A')
+		for (j = 0; j < 10; j++)
 		{
-			*p = '4';
+			if (n[i] == v1[j])
+			{
+				n[i] = v2[j];
+			}
 		}
-		else if (*p == 'e' || *p == 'E')
-		{
-			*p = '3';
-		}
-		else if (*p == 'i' || *p == 'I')
-		{
-			*p = '1';
-		}
-		else if (*p == 'o' || *p == 'O')
-		{
-			*p = '0';
-		}
-		else if (*p == 's' || *p == 'S')
-		{
-			*p = '5';
-		}
-		else
-		{
-			*p = (*p >= 'a' && *p <= 'z')
-					 ? (*p - 'a' + 'A')
-					 : *p;
-		}
-		p++;
 	}
-	return (s);
+	return (n);
 }
