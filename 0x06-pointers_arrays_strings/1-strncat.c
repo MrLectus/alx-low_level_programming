@@ -31,11 +31,10 @@ char *_strncat(char *dest, char *src, int n)
 {
 	int i, j;
 
-	i = _strlen(dest);
+	i = _strlen(dest) - 1;
 	j = 0;
 
 	while ((dest[i++] = src[j++]) && n >= i)
 		;
-	dest[i - 1] = '\0';
 	return (dest);
 }
