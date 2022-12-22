@@ -1,24 +1,6 @@
 #include "main.h"
 
 /**
- * _strlen - find length
- * @s: poniter 1
- *
- * Return: size
- */
-
-int _strlen(char *s)
-{
-	int size = 0;
-
-	while (s[size] != '\0')
-	{
-		size++;
-	}
-	return (size);
-}
-
-/**
  * _strncpy - copy string
  * @dest: poniter 1
  * @src: poniter 2
@@ -36,6 +18,10 @@ char *_strncpy(char *dest, char *src, int n)
 	while ((dest[i] = src[i]) && i <= n)
 	{
 		i++;
+	}
+	for (; i < n; ++i)
+	{
+		dest[i] = '\0';
 	}
 	return (dest);
 }
