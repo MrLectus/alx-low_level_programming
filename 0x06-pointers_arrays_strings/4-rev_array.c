@@ -1,6 +1,4 @@
-#include "../0x05-pointers_arrays_strings/1-swap.c"
 #include "main.h"
-#include <stdio.h>
 
 /**
  * reverse_array - reverse array
