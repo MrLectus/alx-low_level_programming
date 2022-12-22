@@ -3,39 +3,44 @@
 
 /**
  * leet - to upper
- * @v1: poniter 1
+ * @s: poniter 1
  *
  * Return: upper
  */
 
-char *leet(char *v1)
+char *leet(char *s)
 {
-	int i = 0;
+	char *p = s;
 
-	while (v1[i] != '\0')
+	while (*p)
 	{
-		if (v1[i] == 'a' || v1[i] == 'A')
+		if (*p == 'a' || *p == 'A')
 		{
-			v1[i] = 52;
+			*p = '4';
 		}
-		else if (v1[i] == 'e' || v1[i] == 'E')
+		else if (*p == 'e' || *p == 'E')
 		{
-			v1[i] = 51;
+			*p = '3';
 		}
-		else if (v1[i] == 'o' || v1[i] == 'O')
+		else if (*p == 'i' || *p == 'I')
 		{
-			v1[i] = 48;
+			*p = '1';
 		}
-		else if (v1[i] == 't' || v1[i] == 'T')
+		else if (*p == 'o' || *p == 'O')
 		{
-			v1[i] = 55;
+			*p = '0';
 		}
-		else if (v1[i] == 'l' || v1[i] == 'L')
+		else if (*p == 's' || *p == 'S')
 		{
-			v1[i] = 49;
+			*p = '5';
 		}
-		i++;
+		else
+		{
+			*p = (*p >= 'a' && *p <= 'z')
+					 ? (*p - 'a' + 'A')
+					 : *p;
+		}
+		p++;
 	}
-
-	return (v1);
+	return (s);
 }
