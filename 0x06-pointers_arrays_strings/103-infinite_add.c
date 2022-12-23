@@ -1,5 +1,6 @@
-#define MAX(a, b) ((a) > (b) ? (a) : (b))
 
+#include <stdio.h>
+#define MAX(a, b) ((a) > (b) ? (a) : (b))
 /**
  * _strlen - find length
  * @s: poniter 1
@@ -17,6 +18,7 @@ int _strlen(char *s)
 	}
 	return (size);
 }
+
 /**
  * infinite_add - add infinite
  * @n1: poniter 1
@@ -39,8 +41,9 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	}
 
 	int carry = 0;
+	int i;
 
-	for (int i = 1; i <= len; i++)
+	for (i = 1; i <= len; i++)
 	{
 		int d1 = i <= len1 ? n1[len1 - i] - '0' : 0;
 		int d2 = i <= len2 ? n2[len2 - i] - '0' : 0;
