@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
  * _memcpy - Entry point
  * @dest: param 1
