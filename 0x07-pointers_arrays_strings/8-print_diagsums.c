@@ -1,19 +1,20 @@
-#include "2-strchr.c"
 #include "main.h"
 #include <stdio.h>
 
 /**
- * _strpbrk - Entry point
+ * print_diagsums - Entry point
  * @a: param 1
  * @size: param 2
  *
  */
+
 void print_diagsums(int *a, int size)
 {
 	int sumX = 0;
 	int sumY = 0;
 
 	int i, j;
+
 	i = j = 0;
 
 	for (i = 0; i < size; i++)
