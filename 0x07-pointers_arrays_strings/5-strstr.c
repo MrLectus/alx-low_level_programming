@@ -8,6 +8,7 @@
  *
  * Return: Always 0 (Success)
  */
+
 char *_strstr(char *haystack, char *needle)
 {
 	int i, j;
