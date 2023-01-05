@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <string.h>
 
 /**
  * wildcmp - Entry point
@@ -19,6 +20,11 @@ int wildcmp(char *s1, char *s2)
 	if (*s2 == '\0' || *s1 != *s2)
 	{
 		return (0);
+	}
+
+	if (strcmp(s2, "*"))
+	{
+		return (1);
 	}
 
 	else if (*s2 == '*')
