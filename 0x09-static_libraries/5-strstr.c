@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * _strstr - Entry point
@@ -30,5 +29,5 @@ char *_strstr(char *haystack, char *needle)
 			}
 		}
 	}
-	return (NULL);
+	return ((void*)0);
 }

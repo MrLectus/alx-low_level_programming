@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * _strpbrk - Entry point
@@ -23,5 +22,5 @@ char *_strpbrk(char *s, char *accept)
 			}
 		}
 	}
-	return (NULL);
+	return ((void*)0);
 }
