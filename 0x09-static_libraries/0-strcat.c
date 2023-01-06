@@ -1,23 +1,6 @@
 #include "main.h"
 
 /**
- * _strlen - find length
- * @s: poniter 1
- *
- * Return: size
- */
-
-int _strlen(char *s)
-{
-	int size = 0;
-
-	while (s[size] != '\0')
-	{
-		size++;
-	}
-	return (size);
-}
-/**
  * _strcat - concat string
  * @dest: poniter 1
  * @src: poniter 1
@@ -31,7 +14,7 @@ char *_strcat(char *dest, char *src)
 
 	j = 0;
 
-	i = _strlen(dest);
+	i = 0;
 
 	while ((dest[i++] = src[j++]) != '\0')
 		;
