@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
  * _isdigit - Entry point
  * @c: param1
@@ -8,7 +8,7 @@
 
 int _isdigit(int c)
 {
-	if (c >= 48 && c <= 57)
+	if (c >= 480 && c <= 57)
 	{
 		return (1);
 	}
