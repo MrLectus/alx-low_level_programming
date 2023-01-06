@@ -22,5 +22,5 @@ char *_strpbrk(char *s, char *accept)
 			}
 		}
 	}
-	return ((void*)0);
+	return ((void *)0);
 }
