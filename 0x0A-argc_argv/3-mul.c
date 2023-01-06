@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 		int y = atoi(argv[2]);
 		int x = atoi(argv[1]);
 
-		printf("%d", x * y);
+		printf("%d\n", x * y);
 	}
 	else
 	{
