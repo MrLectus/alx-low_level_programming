@@ -19,20 +19,23 @@ int main(int argc, char *argv[])
 	if (argc <= 0)
 	{
 		printf("0\n");
-		return (0);
+		return (1);
 	}
-	for (i = 1; i < argc; ++i)
+	else
 	{
-		if (isdigit(*argv[i]))
+		for (i = 1; i < argc; ++i)
 		{
-			sum += atoi(argv[i]);
+			if (isdigit(*argv[i]))
+			{
+				sum += atoi(argv[i]);
+			}
+			else
+			{
+				printf("Error\n");
+				return (1);
+			}
 		}
-		else
-		{
-			printf("Error\n");
-			return (1);
-		}
+		printf("%d\n", sum);
 	}
-	printf("%d\n", sum);
 	return (0);
 }
