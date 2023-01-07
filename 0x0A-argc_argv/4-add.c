@@ -3,7 +3,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
 /**
  * main - Entry point
  * @argc: ---------
@@ -11,7 +10,6 @@
  *
  * Return: Always 0 (Success)
  */
-
 int main(int argc, char *argv[])
 {
 	int sum;
@@ -34,16 +32,13 @@ int main(int argc, char *argv[])
 			for (j = 0; j < strlen(argv[i]); j++)
 			{
 				if (isdigit(argv[i][j]))
-				{
 					check = true;
-				}
 				else
 				{
 					check = false;
 					break;
 				}
 			}
-
 			if (check)
 			{
 				sum += atoi(argv[i]);
