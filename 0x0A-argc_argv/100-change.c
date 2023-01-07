@@ -57,7 +57,7 @@ int main(int argc, char *argv[])
 
 	count = 0;
 
-	if (argc < 1)
+	if (argc <= 1)
 	{
 		printf("Error\n");
 		return (1);
