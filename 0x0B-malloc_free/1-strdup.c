@@ -21,11 +21,18 @@ char *_strdup(char *str)
 	else
 	{
 		v1 = malloc(sizeof(char) * strlen(str) + 1);
-		while (*str != '\0')
+		if (v1 == NULL)
 		{
-			v1[n] = *str;
-			str = str + 1;
-			n++;
+			return (NULL);
+		}
+		else
+		{
+			while (*str != '\0')
+			{
+				v1[n] = *str;
+				str = str + 1;
+				n++;
+			}
 		}
 	}
 	return (v1);
