@@ -15,9 +15,14 @@ char *create_array(unsigned int size, char c)
 	size_t i;
 	i = 0;
 
+	if (size == 0)
+	{
+		return (NULL);
+	}
+
 	for (i = 0; i < size; ++i)
 	{
 		v1[i] = c;
 	}
-	return v1;
+	return (v1);
 }
