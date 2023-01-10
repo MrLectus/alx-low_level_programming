@@ -5,8 +5,8 @@
 
 /**
  * str_concat - Entry point
- * @st1 : param
- * @st2 : param
+ * @s1 : param
+ * @s2 : param
  *
  * Return: Always 0 (Success)
  */
